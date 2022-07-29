@@ -1,0 +1,19 @@
+user1 = {
+        'Maria,+39587111111':25.50,
+        'Ivan,+39587222222':30.48,
+        'Asen,+39587333333':5.98
+     }
+
+print(user1)
+
+user1['ivo,+39587444444']=7.80
+print(user1)
+user1['ivo,+39587444444']
+del user1['ivo,+39587444444']
+
+
+print(user1)
+
+
+print(min(user1))
+print(max(user1))
